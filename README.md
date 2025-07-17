@@ -1,5 +1,3 @@
-# Terraform-1
-
 # Terraform 練習用構成の説明
 
 このリポジトリは、Terraformを使ってAWS上に簡単なVPCネットワークとEC2インスタンスを作成する練習用の構成です。
