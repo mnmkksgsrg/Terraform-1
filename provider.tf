@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aws"
+      source  = "hashicorp/aws"
       version = "~>6.0"
     }
   }
@@ -11,9 +11,9 @@ provider "aws" {
   region = "ap-northeast-1"
   default_tags {
     tags = {
-      Pj = "terraform1"
+      Pj    = "terraform1"
       Owner = "mnmkksgsrg"
-      Env = "practice"
+      Env   = "practice"
     }
   }
 }

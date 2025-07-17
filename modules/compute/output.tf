@@ -7,6 +7,6 @@ output "public_ip" {
 }
 
 output "private_ip" {
-  value = aws_instance.private_ip
+  value = aws_instance.web.private_ip
 }
 
