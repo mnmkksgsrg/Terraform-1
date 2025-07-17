@@ -8,12 +8,12 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-north-1"
+  region = "ap-northeast-1"
   default_tags {
     tags = {
-      Pj = terraform1
-      Owner = mnmkksgsrg
-      Env = practice
+      Pj = "terraform1"
+      Owner = "mnmkksgsrg"
+      Env = "practice"
     }
   }
 }
