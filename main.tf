@@ -13,7 +13,7 @@ module "network" {
 module "compute" {
   source = "./modules/compute"
 
-  ami_id = "ami-123456"
+  ami_id = "ami-0a1d2557d4acd0465"
   # instance_type = #defaultを設定しているので省略可 
   public_subnet_ids     = module.network.public_subnet_ids
   aws_security_group_id = module.network.security_group_id
